@@ -1,11 +1,9 @@
-import Link from "next/link";
+import BackLink from "@/components/BackLink";
 
 export default function Quote() {
   return (
     <div>
-      <Link href="/" className="underline p-2 m-2">
-        Back
-      </Link>
+      <BackLink />
       <form>
         <label>
           First Name:

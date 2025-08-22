@@ -1,17 +1,14 @@
-import Link from "next/link";
+import BackLink from "@/components/BackLink";
 
 export default function Testimonials() {
   return (
     <div>
-      <Link href="/" className="underline p-2 m-2">
-        Back
-      </Link>
+      <BackLink />
       <p>Testimonial 1</p>
       <p>Testimonial 2</p>
       <p>Testimonial 3</p>
       <p>Testimonial 4</p>
       <p>Testimonial 5</p>
     </div>
-
   );
 }
