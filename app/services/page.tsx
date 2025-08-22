@@ -1,0 +1,27 @@
+import Link from "next/link";
+
+export default function services() {
+  return (
+    <div>
+      <Link href="/" className="underline p-2 m-2">
+        Back
+      </Link>
+      <h1>Services</h1>
+      <ul>
+        <li>
+          <h2>Remodeling</h2>
+        </li>
+        <li>
+          <h2>Maintenance</h2>
+        </li>
+        <li>
+          <h2>Landscaping</h2>
+        </li>
+        <li>
+          <h2>Pavers</h2>
+        </li>
+      </ul>
+    </div>
+
+  );
+}
