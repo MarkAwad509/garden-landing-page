@@ -1,4 +1,4 @@
-import BackLink from "@/components/BackLink";
+import BackLink from "../../components/BackLink";
 
 export default function Quote() {
   return (

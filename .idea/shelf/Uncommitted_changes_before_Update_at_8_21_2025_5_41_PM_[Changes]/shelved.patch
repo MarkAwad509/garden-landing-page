@@ -1,0 +1,188 @@
+Index: app/testimonials/page.tsx
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>import Link from \"next/link\";\r\n\r\nexport default function testimonials() {\r\n  return (\r\n    <div>\r\n      <Link href=\"/\" className=\"underline p-2 m-2\">\r\n        Back\r\n      </Link>\r\n      <p>Testimonial 1</p>\r\n      <p>Testimonial 2</p>\r\n      <p>Testimonial 3</p>\r\n      <p>Testimonial 4</p>\r\n      <p>Testimonial 5</p>\r\n    </div>\r\n\r\n  );\r\n}
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/app/testimonials/page.tsx b/app/testimonials/page.tsx
+--- a/app/testimonials/page.tsx	(revision 6abf135e79f64049c037bac3f244271acb968aaf)
++++ b/app/testimonials/page.tsx	(date 1755822621968)
+@@ -1,6 +1,6 @@
+ import Link from "next/link";
+ 
+-export default function testimonials() {
++export default function Testimonials() {
+   return (
+     <div>
+       <Link href="/" className="underline p-2 m-2">
+Index: app/services/page.tsx
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>import Link from \"next/link\";\r\n\r\nexport default function services() {\r\n  return (\r\n    <div>\r\n      <Link href=\"/\" className=\"underline p-2 m-2\">\r\n        Back\r\n      </Link>\r\n      <h1>Services</h1>\r\n      <ul>\r\n        <li>\r\n          <h2>Remodeling</h2>\r\n        </li>\r\n        <li>\r\n          <h2>Maintenance</h2>\r\n        </li>\r\n        <li>\r\n          <h2>Landscaping</h2>\r\n        </li>\r\n        <li>\r\n          <h2>Pavers</h2>\r\n        </li>\r\n      </ul>\r\n    </div>\r\n\r\n  );\r\n}
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/app/services/page.tsx b/app/services/page.tsx
+--- a/app/services/page.tsx	(revision 6abf135e79f64049c037bac3f244271acb968aaf)
++++ b/app/services/page.tsx	(date 1755822614165)
+@@ -1,6 +1,6 @@
+ import Link from "next/link";
+ 
+-export default function services() {
++export default function Services() {
+   return (
+     <div>
+       <Link href="/" className="underline p-2 m-2">
+Index: app/quote/page.tsx
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>import Link from \"next/link\";\r\n\r\nexport default function quote() {\r\n  return (\r\n    <div>\r\n      <Link href=\"/\" className=\"underline p-2 m-2\">\r\n        Back\r\n      </Link>\r\n      <form>\r\n        <label>\r\n          First Name:\r\n        </label>\r\n        <input name=\"firstName\" type=\"text\" />\r\n        <label>\r\n          Last Name:\r\n        </label>\r\n        <input name=\"lastName\" type=\"text\" />\r\n        <label>\r\n          Email:\r\n        </label>\r\n        <input name=\"email\" type=\"text\" />\r\n        <label>\r\n          Phone #:\r\n        </label>\r\n        <input name=\"phone\" type=\"text\" />\r\n        <label>\r\n          Services needed:\r\n        </label>\r\n        <ul>\r\n          <input name=\"Remodeling\" type=\"checkbox\" value=\"Remodeling\" />\r\n          <input name=\"Remodeling\" type=\"checkbox\" />\r\n          <input name=\"Remodeling\" type=\"checkbox\" />\r\n          <input name=\"Remodeling\" type=\"checkbox\" />\r\n        </ul>\r\n      </form>\r\n    </div>\r\n  )\r\n}
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/app/quote/page.tsx b/app/quote/page.tsx
+--- a/app/quote/page.tsx	(revision 6abf135e79f64049c037bac3f244271acb968aaf)
++++ b/app/quote/page.tsx	(date 1755822624766)
+@@ -1,6 +1,6 @@
+ import Link from "next/link";
+ 
+-export default function quote() {
++export default function Quote() {
+   return (
+     <div>
+       <Link href="/" className="underline p-2 m-2">
+Index: app/portfolio/page.tsx
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>import Link from \"next/link\";\r\n\r\nexport default function portfolio() {\r\n  return (\r\n    <div>\r\n      <Link href=\"/\" className=\"underline p-2 m-2\">\r\n        Back\r\n      </Link>\r\n      <p>\r\n        Explore our blog for insightful articles on the latest trends,\r\n        maintenance tips, and creative ideas to elevate your outdoor living experience.\r\n        Dive into the world of landscaping with Panjia Turf’s expert perspectives.\r\n      </p>\r\n    </div>\r\n\r\n  );\r\n}
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/app/portfolio/page.tsx b/app/portfolio/page.tsx
+--- a/app/portfolio/page.tsx	(revision 6abf135e79f64049c037bac3f244271acb968aaf)
++++ b/app/portfolio/page.tsx	(date 1755822610669)
+@@ -1,6 +1,6 @@
+ import Link from "next/link";
+ 
+-export default function portfolio() {
++export default function Portfolio() {
+   return (
+     <div>
+       <Link href="/" className="underline p-2 m-2">
+Index: app/about/page.tsx
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>import Link from \"next/link\";\r\n\r\nexport default function about() {\r\n    return (\r\n      <div>\r\n        <Link href=\"/\" className=\"underline p-2 m-2\">\r\n          Back\r\n        </Link>\r\n        <h1>About us</h1>\r\n        <p>Since 2007, we&#39;ve been creating extraordinary outdoor living environments that enhance lives. From custom synthetic turf and paver installations to outdoor kitchens and lighting – we bring beauty and functionality to every project.</p>\r\n      </div>\r\n\r\n    );\r\n}
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/app/about/page.tsx b/app/about/page.tsx
+--- a/app/about/page.tsx	(revision 6abf135e79f64049c037bac3f244271acb968aaf)
++++ b/app/about/page.tsx	(date 1755822606553)
+@@ -1,6 +1,6 @@
+ import Link from "next/link";
+ 
+-export default function about() {
++export default function About() {
+     return (
+       <div>
+         <Link href="/" className="underline p-2 m-2">
+Index: .idea/workspace.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\r\n<project version=\"4\">\r\n  <component name=\"AutoImportSettings\">\r\n    <option name=\"autoReloadType\" value=\"SELECTIVE\" />\r\n  </component>\r\n  <component name=\"ChangeListManager\">\r\n    <list default=\"true\" id=\"556e445f-498f-409b-b277-a8b11ee368be\" name=\"Changes\" comment=\"initial commit\">\r\n      <change afterPath=\"$PROJECT_DIR$/.idea/vcs.xml\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/app/quote/page.tsx\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/.idea/workspace.xml\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/.idea/workspace.xml\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/app/globals.css\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/app/globals.css\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/app/layout.js\" beforeDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/app/page.js\" beforeDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/package-lock.json\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/package-lock.json\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/package.json\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/package.json\" afterDir=\"false\" />\r\n    </list>\r\n    <option name=\"SHOW_DIALOG\" value=\"false\" />\r\n    <option name=\"HIGHLIGHT_CONFLICTS\" value=\"true\" />\r\n    <option name=\"HIGHLIGHT_NON_ACTIVE_CHANGELIST\" value=\"false\" />\r\n    <option name=\"LAST_RESOLUTION\" value=\"IGNORE\" />\r\n  </component>\r\n  <component name=\"FileTemplateManagerImpl\">\r\n    <option name=\"RECENT_TEMPLATES\">\r\n      <list>\r\n        <option value=\"JSX File\" />\r\n        <option value=\"JavaScript File\" />\r\n        <option value=\"TypeScript JSX File\" />\r\n      </list>\r\n    </option>\r\n  </component>\r\n  <component name=\"Git.Settings\">\r\n    <option name=\"RECENT_GIT_ROOT_PATH\" value=\"$PROJECT_DIR$\" />\r\n  </component>\r\n  <component name=\"ProjectColorInfo\">{\r\n  &quot;associatedIndex&quot;: 8\r\n}</component>\r\n  <component name=\"ProjectId\" id=\"31ZhKjpN0fzboDFkuZEfmO1eNaj\" />\r\n  <component name=\"ProjectLevelVcsManager\">\r\n    <ConfirmationsSetting value=\"2\" id=\"Add\" />\r\n  </component>\r\n  <component name=\"ProjectViewState\">\r\n    <option name=\"hideEmptyMiddlePackages\" value=\"true\" />\r\n    <option name=\"showLibraryContents\" value=\"true\" />\r\n  </component>\r\n  <component name=\"PropertiesComponent\"><![CDATA[{\r\n  \"keyToString\": {\r\n    \"ASKED_SHARE_PROJECT_CONFIGURATION_FILES\": \"true\",\r\n    \"ModuleVcsDetector.initialDetectionPerformed\": \"true\",\r\n    \"RunOnceActivity.ShowReadmeOnStart\": \"true\",\r\n    \"RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager\": \"true\",\r\n    \"RunOnceActivity.git.unshallow\": \"true\",\r\n    \"git-widget-placeholder\": \"master\",\r\n    \"node.js.detected.package.eslint\": \"true\",\r\n    \"node.js.detected.package.tslint\": \"true\",\r\n    \"node.js.selected.package.eslint\": \"(autodetect)\",\r\n    \"node.js.selected.package.tslint\": \"(autodetect)\",\r\n    \"nodejs_interpreter_path\": \"C:/Users/marka/AppData/Roaming/JetBrains/WebStorm2025.1/node/versions/20.15.0/node\",\r\n    \"nodejs_package_manager_path\": \"npm\",\r\n    \"npm.build.executor\": \"Run\",\r\n    \"npm.dev.executor\": \"Run\",\r\n    \"npm.npm start.executor\": \"Run\",\r\n    \"ts.external.directory.path\": \"C:\\\\Users\\\\marka\\\\Desktop\\\\Work\\\\garden-landing-page\\\\node_modules\\\\typescript\\\\lib\",\r\n    \"vue.rearranger.settings.migration\": \"true\"\r\n  }\r\n}]]></component>\r\n  <component name=\"RecentsManager\">\r\n    <key name=\"MoveFile.RECENT_KEYS\">\r\n      <recent name=\"C:\\Users\\marka\\Desktop\\Work\\garden-landing-page\\app\" />\r\n    </key>\r\n  </component>\r\n  <component name=\"RunManager\" selected=\"npm.dev\">\r\n    <configuration name=\"Debug Application\" type=\"JavascriptDebugType\" uri=\"http://localhost:3000\">\r\n      <method v=\"2\" />\r\n    </configuration>\r\n    <configuration name=\"build\" type=\"js.build_tools.npm\" temporary=\"true\" nameIsGenerated=\"true\">\r\n      <package-json value=\"$PROJECT_DIR$/package.json\" />\r\n      <command value=\"run\" />\r\n      <scripts>\r\n        <script value=\"build\" />\r\n      </scripts>\r\n      <node-interpreter value=\"project\" />\r\n      <envs />\r\n      <method v=\"2\" />\r\n    </configuration>\r\n    <configuration name=\"dev\" type=\"js.build_tools.npm\" temporary=\"true\" nameIsGenerated=\"true\">\r\n      <package-json value=\"$PROJECT_DIR$/package.json\" />\r\n      <command value=\"run\" />\r\n      <scripts>\r\n        <script value=\"dev\" />\r\n      </scripts>\r\n      <node-interpreter value=\"project\" />\r\n      <envs />\r\n      <method v=\"2\" />\r\n    </configuration>\r\n    <configuration name=\"npm start\" type=\"js.build_tools.npm\">\r\n      <package-json value=\"$PROJECT_DIR$/package.json\" />\r\n      <command value=\"run\" />\r\n      <scripts>\r\n        <script value=\"start\" />\r\n      </scripts>\r\n      <node-interpreter value=\"project\" />\r\n      <envs />\r\n      <method v=\"2\" />\r\n    </configuration>\r\n    <recent_temporary>\r\n      <list>\r\n        <item itemvalue=\"npm.dev\" />\r\n        <item itemvalue=\"npm.build\" />\r\n      </list>\r\n    </recent_temporary>\r\n  </component>\r\n  <component name=\"SharedIndexes\">\r\n    <attachedChunks>\r\n      <set>\r\n        <option value=\"bundled-js-predefined-d6986cc7102b-09060db00ec0-JavaScript-WS-251.26927.40\" />\r\n      </set>\r\n    </attachedChunks>\r\n  </component>\r\n  <component name=\"TaskManager\">\r\n    <task active=\"true\" id=\"Default\" summary=\"Default task\">\r\n      <changelist id=\"556e445f-498f-409b-b277-a8b11ee368be\" name=\"Changes\" comment=\"\" />\r\n      <created>1755737440020</created>\r\n      <option name=\"number\" value=\"Default\" />\r\n      <option name=\"presentableId\" value=\"Default\" />\r\n      <updated>1755737440020</updated>\r\n      <workItem from=\"1755737440975\" duration=\"2186000\" />\r\n      <workItem from=\"1755740533479\" duration=\"9839000\" />\r\n      <workItem from=\"1755819497596\" duration=\"1647000\" />\r\n    </task>\r\n    <task id=\"LOCAL-00001\" summary=\"initial commit\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1755741294509</created>\r\n      <option name=\"number\" value=\"00001\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00001\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1755741294509</updated>\r\n    </task>\r\n    <option name=\"localTasksCounter\" value=\"2\" />\r\n    <servers />\r\n  </component>\r\n  <component name=\"TypeScriptGeneratedFilesManager\">\r\n    <option name=\"version\" value=\"3\" />\r\n  </component>\r\n  <component name=\"Vcs.Log.Tabs.Properties\">\r\n    <option name=\"TAB_STATES\">\r\n      <map>\r\n        <entry key=\"MAIN\">\r\n          <value>\r\n            <State />\r\n          </value>\r\n        </entry>\r\n      </map>\r\n    </option>\r\n  </component>\r\n  <component name=\"VcsManagerConfiguration\">\r\n    <MESSAGE value=\"initial commit\" />\r\n    <option name=\"LAST_COMMIT_MESSAGE\" value=\"initial commit\" />\r\n  </component>\r\n</project>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/workspace.xml b/.idea/workspace.xml
+--- a/.idea/workspace.xml	(revision 6abf135e79f64049c037bac3f244271acb968aaf)
++++ b/.idea/workspace.xml	(date 1755823241915)
+@@ -4,15 +4,13 @@
+     <option name="autoReloadType" value="SELECTIVE" />
+   </component>
+   <component name="ChangeListManager">
+-    <list default="true" id="556e445f-498f-409b-b277-a8b11ee368be" name="Changes" comment="initial commit">
+-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/app/quote/page.tsx" afterDir="false" />
++    <list default="true" id="556e445f-498f-409b-b277-a8b11ee368be" name="Changes" comment="finished basic site structure">
+       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/app/globals.css" beforeDir="false" afterPath="$PROJECT_DIR$/app/globals.css" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/app/layout.js" beforeDir="false" />
+-      <change beforePath="$PROJECT_DIR$/app/page.js" beforeDir="false" />
+-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/app/about/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/about/page.tsx" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/app/portfolio/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/portfolio/page.tsx" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/app/quote/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/quote/page.tsx" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/app/services/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/services/page.tsx" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/app/testimonials/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/testimonials/page.tsx" afterDir="false" />
+     </list>
+     <option name="SHOW_DIALOG" value="false" />
+     <option name="HIGHLIGHT_CONFLICTS" value="true" />
+@@ -31,6 +29,21 @@
+   <component name="Git.Settings">
+     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+   </component>
++  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
++  "lastFilter": {
++    "state": "OPEN",
++    "assignee": "MarkAwad509"
++  }
++}]]></component>
++  <component name="GithubPullRequestsUISettings"><![CDATA[{
++  "selectedUrlAndAccountId": {
++    "url": "https://github.com/MarkAwad509/garden-landing-page.git",
++    "accountId": "3ed43541-d4d8-4087-be53-dc1636cc45f6"
++  }
++}]]></component>
++  <component name="ProblemsViewState">
++    <option name="selectedTabId" value="ProjectErrors" />
++  </component>
+   <component name="ProjectColorInfo">{
+   &quot;associatedIndex&quot;: 8
+ }</component>
+@@ -125,7 +138,7 @@
+       <updated>1755737440020</updated>
+       <workItem from="1755737440975" duration="2186000" />
+       <workItem from="1755740533479" duration="9839000" />
+-      <workItem from="1755819497596" duration="1647000" />
++      <workItem from="1755819497596" duration="3256000" />
+     </task>
+     <task id="LOCAL-00001" summary="initial commit">
+       <option name="closed" value="true" />
+@@ -135,7 +148,23 @@
+       <option name="project" value="LOCAL" />
+       <updated>1755741294509</updated>
+     </task>
+-    <option name="localTasksCounter" value="2" />
++    <task id="LOCAL-00002" summary="finished basic site structure">
++      <option name="closed" value="true" />
++      <created>1755821251620</created>
++      <option name="number" value="00002" />
++      <option name="presentableId" value="LOCAL-00002" />
++      <option name="project" value="LOCAL" />
++      <updated>1755821251620</updated>
++    </task>
++    <task id="LOCAL-00003" summary="finished basic site structure">
++      <option name="closed" value="true" />
++      <created>1755821273543</created>
++      <option name="number" value="00003" />
++      <option name="presentableId" value="LOCAL-00003" />
++      <option name="project" value="LOCAL" />
++      <updated>1755821273543</updated>
++    </task>
++    <option name="localTasksCounter" value="4" />
+     <servers />
+   </component>
+   <component name="TypeScriptGeneratedFilesManager">
+@@ -154,6 +183,7 @@
+   </component>
+   <component name="VcsManagerConfiguration">
+     <MESSAGE value="initial commit" />
+-    <option name="LAST_COMMIT_MESSAGE" value="initial commit" />
++    <MESSAGE value="finished basic site structure" />
++    <option name="LAST_COMMIT_MESSAGE" value="finished basic site structure" />
+   </component>
+ </project>
+\ No newline at end of file
