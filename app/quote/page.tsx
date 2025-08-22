@@ -4,6 +4,9 @@ export default function Quote() {
   return (
     <div>
       <BackLink />
+      <h1 id="quote" className="text-2xl font-semibold p-2">
+        Get a Free Quote Here.
+      </h1>
       <form>
         <label htmlFor="firstName">
           First Name:
@@ -22,7 +25,7 @@ export default function Quote() {
         </label>
         <input id="phone" name="phone" type="tel" />
         <p>Services needed:</p>
-        <ul id="services">
+        <ol id="services">
           <li>
             <input
               id="service-remodeling"
@@ -31,6 +34,15 @@ export default function Quote() {
               value="remodeling"
             />
             <label htmlFor="service-remodeling">Remodeling</label>
+          </li>
+          <li>
+            <input
+              id="service-maintenance"
+              name="maintenance"
+              type="checkbox"
+              value="maintenance"
+            />
+            <label htmlFor="service-maintenance">Maintenance</label>
           </li>
           <li>
             <input
@@ -52,6 +64,15 @@ export default function Quote() {
           </li>
           <li>
             <input
+              id="service-pavers"
+              name="pavers"
+              type="checkbox"
+              value="pavers"
+            />
+            <label htmlFor="service-pavers">Pavers</label>
+          </li>
+          <li>
+            <input
               id="service-lighting"
               name="lighting"
               type="checkbox"
@@ -59,7 +80,10 @@ export default function Quote() {
             />
             <label htmlFor="service-lighting">Lighting</label>
           </li>
-        </ul>
+        </ol>
+        <button className="btn btn-primary p-2 mx-3 my-5 bg-emerald-400 hover:bg-emerald-600 rounded-lg transition-all">
+          Submit
+        </button>
       </form>
     </div>
   );

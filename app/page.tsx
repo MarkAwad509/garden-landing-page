@@ -3,7 +3,9 @@ import Link from "next/link";
 export default function Home() {
   return (
     <header className="header">
-      <h1 className="text-2xl font-semibold text-blue-600">Panja Pavers & Gardening</h1>
+      <h1 className="text-2xl font-semibold text-emerald-400 bg-gray-600 p-2">
+        Panja Pavers & Gardening
+      </h1>
 
       <nav>
         <ul>
@@ -28,7 +30,7 @@ export default function Home() {
             </Link>
           </li>
           <li>
-            <Link href="/quote" className="p-2 m-3 bg-cyan-500 hover:bg-cyan-600 rounded-lg transition-all">
+            <Link href="/quote" className="p-2 mx-3 my-5 bg-emerald-400 hover:bg-emerald-600 rounded-lg transition-all">
               Get a Quote
             </Link>
           </li>
