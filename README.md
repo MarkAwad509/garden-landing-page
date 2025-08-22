@@ -1,6 +1,6 @@
-# Panja Pavers & Gardening Landing Page
+# Panda Pavers & Gardening Landing Page
 
-This repository contains the marketing landing page for **Panja Pavers & Gardening**. It showcases the company's paving and landscaping services and provides a simple call to action for potential customers.
+This repository contains the marketing landing page for **Panda Pavers & Gardening**. It showcases the company's paving and landscaping services and provides a simple call to action for potential customers.
 
 Built with [Next.js](https://nextjs.org) and Tailwind CSS, the site renders a responsive single-page experience that can be easily customized.
 

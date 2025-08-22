@@ -4,14 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="556e445f-498f-409b-b277-a8b11ee368be" name="Changes" comment="fixed correct references to BackLink component in all pages.">
+    <list default="true" id="556e445f-498f-409b-b277-a8b11ee368be" name="Changes" comment="added new styles to pages.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/about/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/about/page.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/layout.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/layout.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/page.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/portfolio/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/portfolio/page.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/quote/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/quote/page.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/services/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/services/page.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/testimonials/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/testimonials/page.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -139,7 +136,7 @@
       <updated>1755737440020</updated>
       <workItem from="1755737440975" duration="2186000" />
       <workItem from="1755740533479" duration="9839000" />
-      <workItem from="1755819497596" duration="5108000" />
+      <workItem from="1755819497596" duration="5372000" />
     </task>
     <task id="LOCAL-00001" summary="initial commit">
       <option name="closed" value="true" />
@@ -173,7 +170,15 @@
       <option name="project" value="LOCAL" />
       <updated>1755823589435</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="added new styles to pages.">
+      <option name="closed" value="true" />
+      <created>1755825226406</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1755825226406</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -194,6 +199,7 @@
     <MESSAGE value="initial commit" />
     <MESSAGE value="finished basic site structure" />
     <MESSAGE value="fixed correct references to BackLink component in all pages." />
-    <option name="LAST_COMMIT_MESSAGE" value="fixed correct references to BackLink component in all pages." />
+    <MESSAGE value="added new styles to pages." />
+    <option name="LAST_COMMIT_MESSAGE" value="added new styles to pages." />
   </component>
 </project>

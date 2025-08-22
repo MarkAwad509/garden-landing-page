@@ -4,7 +4,7 @@ export default function Home() {
   return (
     <header className="header">
       <h1 className="text-2xl font-semibold text-emerald-400 bg-gray-600 p-2">
-        Panja Pavers & Gardening
+        Panda Pavers & Gardening
       </h1>
 
       <nav>
