@@ -7,32 +7,63 @@ export default function quote() {
         Back
       </Link>
       <form>
-        <label>
+        <label htmlFor="firstName">
           First Name:
         </label>
-        <input name="firstName" type="text" />
-        <label>
+        <input id="firstName" name="firstName" type="text" />
+        <label htmlFor="lastName">
           Last Name:
         </label>
-        <input name="lastName" type="text" />
-        <label>
+        <input id="lastName" name="lastName" type="text" />
+        <label htmlFor="email">
           Email:
         </label>
-        <input name="email" type="text" />
-        <label>
+        <input id="email" name="email" type="email" />
+        <label htmlFor="phone">
           Phone #:
         </label>
-        <input name="phone" type="text" />
-        <label>
-          Services needed:
-        </label>
-        <ul>
-          <input name="Remodeling" type="checkbox" value="Remodeling" />
-          <input name="Remodeling" type="checkbox" />
-          <input name="Remodeling" type="checkbox" />
-          <input name="Remodeling" type="checkbox" />
+        <input id="phone" name="phone" type="tel" />
+        <p>Services needed:</p>
+        <ul id="services">
+          <li>
+            <input
+              id="service-remodeling"
+              name="remodeling"
+              type="checkbox"
+              value="remodeling"
+            />
+            <label htmlFor="service-remodeling">Remodeling</label>
+          </li>
+          <li>
+            <input
+              id="service-hardscaping"
+              name="hardscaping"
+              type="checkbox"
+              value="hardscaping"
+            />
+            <label htmlFor="service-hardscaping">Hardscaping</label>
+          </li>
+          <li>
+            <input
+              id="service-landscaping"
+              name="landscaping"
+              type="checkbox"
+              value="landscaping"
+            />
+            <label htmlFor="service-landscaping">Landscaping</label>
+          </li>
+          <li>
+            <input
+              id="service-lighting"
+              name="lighting"
+              type="checkbox"
+              value="lighting"
+            />
+            <label htmlFor="service-lighting">Lighting</label>
+          </li>
         </ul>
       </form>
     </div>
   )
 }
+
