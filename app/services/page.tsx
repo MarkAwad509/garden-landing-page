@@ -1,11 +1,9 @@
-import Link from "next/link";
+import BackLink from "@/components/BackLink";
 
 export default function services() {
   return (
     <div>
-      <Link href="/" className="underline p-2 m-2">
-        Back
-      </Link>
+      <BackLink />
       <h1>Services</h1>
       <ul>
         <li>
@@ -22,6 +20,5 @@ export default function services() {
         </li>
       </ul>
     </div>
-
   );
 }
