@@ -5,33 +5,35 @@ export default function Home() {
     <header className="header">
       <h1 className="text-2xl font-semibold text-blue-600">Panja Pavers & Gardening</h1>
 
-      <ul>
-        <li>
-          <Link href="/about" className="underline p-2 m-2">
-            About Us
-          </Link>
-        </li>
-        <li>
-          <Link href="/services" className="underline p-2 m-2">
-            Services
-          </Link>
-        </li>
-        <li>
-          <Link href="/portfolio" className="underline p-2 m-2">
-            Portfolio
-          </Link>
-        </li>
-        <li>
-          <Link href="/testimonials" className="underline p-2 m-2">
-            Testimonials
-          </Link>
-        </li>
-        <li>
-          <Link href="/quote" className="p-2 m-3 bg-cyan-500 hover:bg-cyan-600 rounded-lg transition-all">
-            Get a Quote
-          </Link>
-        </li>
-      </ul>
+      <nav>
+        <ul>
+          <li>
+            <Link href="/about" className="underline p-2 m-2">
+              About Us
+            </Link>
+          </li>
+          <li>
+            <Link href="/services" className="underline p-2 m-2">
+              Services
+            </Link>
+          </li>
+          <li>
+            <Link href="/portfolio" className="underline p-2 m-2">
+              Portfolio
+            </Link>
+          </li>
+          <li>
+            <Link href="/testimonials" className="underline p-2 m-2">
+              Testimonials
+            </Link>
+          </li>
+          <li>
+            <Link href="/quote" className="p-2 m-3 bg-cyan-500 hover:bg-cyan-600 rounded-lg transition-all">
+              Get a Quote
+            </Link>
+          </li>
+        </ul>
+      </nav>
     </header>
   );
 }

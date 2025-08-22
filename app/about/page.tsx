@@ -1,6 +1,6 @@
-import Link from "next/link";
+import BackLink from "@/components/BackLink";
 
-export default function about() {
+export default function About() {
     return (
       <div>
         <Link href="/" className="underline p-2 m-2">
