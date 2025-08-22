@@ -1,6 +1,6 @@
 import BackLink from "@/components/BackLink";
 
-export default function quote() {
+export default function Quote() {
   return (
     <div>
       <BackLink />

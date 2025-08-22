@@ -1,6 +1,6 @@
 import BackLink from "@/components/BackLink";
 
-export default function testimonials() {
+export default function Testimonials() {
   return (
     <div>
       <BackLink />

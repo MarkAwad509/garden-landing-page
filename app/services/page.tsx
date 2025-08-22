@@ -1,6 +1,6 @@
 import BackLink from "@/components/BackLink";
 
-export default function services() {
+export default function Services() {
   return (
     <div>
       <BackLink />

@@ -1,6 +1,6 @@
 import BackLink from "@/components/BackLink";
 
-export default function portfolio() {
+export default function Portfolio() {
   return (
     <div>
       <BackLink />
