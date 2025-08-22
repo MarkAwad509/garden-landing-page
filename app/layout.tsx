@@ -13,9 +13,23 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata = {
-  title: "Panja Pavers & Gardening | Professional Paver Installation & Landscaping",
+  title: "Panja Pavers & Gardening",
   description:
-    "Transform your outdoor space with Panja Pavers & Gardening's expert paver installation, landscaping, and garden design services.",
+    "Creating extraordinary outdoor living environments since 2007 with custom synthetic turf, paver installations, outdoor kitchens, and lighting.",
+  openGraph: {
+    title: "Panja Pavers & Gardening",
+    description:
+      "Creating extraordinary outdoor living environments since 2007 with custom synthetic turf, paver installations, outdoor kitchens, and lighting.",
+    url: "https://panjapavers.com",
+    siteName: "Panja Pavers & Gardening",
+    type: "website",
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Panja Pavers & Gardening",
+    description:
+      "Creating extraordinary outdoor living environments since 2007 with custom synthetic turf, paver installations, outdoor kitchens, and lighting.",
+  },
 };
 
 export default function RootLayout({ children } : { children: ReactNode }) {
