@@ -1,6 +1,6 @@
 import Link from "next/link";
 
-export default function testimonials() {
+export default function Testimonials() {
   return (
     <div>
       <Link href="/" className="underline p-2 m-2">

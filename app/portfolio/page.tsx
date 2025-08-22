@@ -1,6 +1,6 @@
 import Link from "next/link";
 
-export default function portfolio() {
+export default function Portfolio() {
   return (
     <div>
       <Link href="/" className="underline p-2 m-2">
