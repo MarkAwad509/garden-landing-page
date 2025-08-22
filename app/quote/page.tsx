@@ -1,6 +1,6 @@
 import Link from "next/link";
 
-export default function quote() {
+export default function Quote() {
   return (
     <div>
       <Link href="/" className="underline p-2 m-2">
@@ -34,5 +34,5 @@ export default function quote() {
         </ul>
       </form>
     </div>
-  )
+  );
 }
