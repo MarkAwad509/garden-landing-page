@@ -1,6 +1,7 @@
 import { Geist, Geist_Mono } from "next/font/google";
+import type { Metadata } from "next";
 import "./globals.css";
-import {ReactNode} from "react";
+import type { ReactNode } from "react";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -12,16 +13,28 @@ const geistMono = Geist_Mono({
   subsets: ["latin"],
 });
 
-export const metadata = {
+export const metadata: Metadata = {
+  metadataBase: new URL("https://pandapavers.com"),
   title: "Panda Pavers & Gardening",
   description:
     "Creating extraordinary outdoor living environments since 2007 with custom synthetic turf, paver installations, outdoor kitchens, and lighting.",
+  alternates: {
+    canonical: "/",
+  },
   openGraph: {
     title: "Panda Pavers & Gardening",
     description:
       "Creating extraordinary outdoor living environments since 2007 with custom synthetic turf, paver installations, outdoor kitchens, and lighting.",
     url: "https://pandapavers.com",
     siteName: "Panda Pavers & Gardening",
+    images: [
+      {
+        url: "/patio-garden-hero.png",
+        width: 1536,
+        height: 1024,
+        alt: "Finished backyard patio, turf, planting, and landscape lighting by Panda Pavers & Gardening",
+      },
+    ],
     type: "website",
   },
   twitter: {
@@ -29,10 +42,11 @@ export const metadata = {
     title: "Panda Pavers & Gardening",
     description:
       "Creating extraordinary outdoor living environments since 2007 with custom synthetic turf, paver installations, outdoor kitchens, and lighting.",
+    images: ["/patio-garden-hero.png"],
   },
 };
 
-export default function RootLayout({ children } : { children: ReactNode }) {
+export default function RootLayout({ children }: { children: ReactNode }) {
   return (
     <html lang="en">
       <body
